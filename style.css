@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+/* html {
+    scroll-padding-top: 500px;    Stop fixed navigations covering content on scroll
+
+
+} */
+/* ======logo=== */
+.a-style-logo{
+    text-decoration: none;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 400;
+    font-size:3rem ;
+    
+ 
+}
+
+:root {
+    --blue-sp: rgb(13, 110, 253);
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.nav-item a:hover {
+    color: var(--blue-sp);
+}
+
+.search {
+    height: 40px;
+    outline: none;
+    border: 2px solid var(--blue-sp);
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    box-shadow: none;
+}
+
+.search:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-sty {
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+
+}
+
+.fa-cart-shopping {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.fa-cart-shopping:hover {
+    color: var(--blue-sp);
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+/* ===========main=============== */
+.main {
+    background: url('./assets/images/rono-united.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100vh;
+    width: 100%;
+
+}
+
+.bg-main-col {
+    background-color: rgba(170, 133, 133, 0.8);
+    border-radius: 20px;
+}
+.a-head-style{
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size:3rem ;
+    
+ 
+}
+/* ========about========= */
+.about {
+    background: url('./assets/images/virat-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100vh;
+    width: 100%;
+
+}
+.bg-about-col {
+    background-color: rgba(170, 133, 133, 0.8);
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+/* =========welcome============= */
+.welcome .card{
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 30px;
+    color: var(--blue-sp);
+    padding-bottom: 15px;
+}
+
+/* .welcome .card{
+    margin-bottom: 10px;
+} */
+/* -----card----------============products=============== */
+.star{
+    text-align: end;
+    color: orange;
+}
+.img-center{
+    display:block;
+    margin:0 auto;
+}
+
+.pr-name,
+.pr-price,
+.pr-desc{
+   display: block;
+}
+/* -------------discount-price-styling--------------- */
+.pr-old-price{
+   color: grey;
+   text-decoration: line-through;
+}
+
+/* --------scrol-to-top-------------- */
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    color:rgb(0,0,0,0.8);
+    font-size: 40px;
+
+}
